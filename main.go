@@ -29,7 +29,4 @@ func main() {
 	fmt.Printf("Status: [%d] | Tempo de Carga: [%f]\n", status, decorrido) // Formatador %d é usado para exibir dados inteiros
 								              // Formatador %f é usado para um valor flutuante. 
 
-	
-	
-
 }
