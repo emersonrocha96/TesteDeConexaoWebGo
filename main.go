@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-// Monitoramento básico de uma site
+// Monitoramento básico de uma site web
 
 func main() {
 
@@ -27,12 +27,9 @@ func main() {
 	status := get.StatusCode
 
 	fmt.Printf("Status: [%d] | Tempo de Carga: [%f]\n", status, decorrido) // Formatador %d é usado para exibir dados inteiros
-																		  // Formatador %f é usado para um valor flutuante. 
+								              // Formatador %f é usado para um valor flutuante. 
 
 	
-	/*
-	Como executar a consulta na CLI: go run .\main.go https://www.google.com
 	
-	*/
 
 }
